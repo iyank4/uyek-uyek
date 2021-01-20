@@ -5,6 +5,10 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    datapusherUrl: 'http://localhost:8800'
+  },
+  getters: {
+    datapusherUrl: vals => vals.datapusherUrl
   },
   mutations: {
   },
